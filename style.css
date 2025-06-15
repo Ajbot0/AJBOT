@@ -1,0 +1,64 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+header {
+  background: linear-gradient(to right, #2c3e50, #3498db);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+  padding: 30px;
+}
+.tool {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.tool input {
+  width: 80%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+.tool button {
+  padding: 10px 15px;
+  background: #3498db;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.tool button:hover {
+  background: #2980b9;
+}
+#imageResult img {
+  margin-top: 15px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+footer a {
+  color: #f1c40f;
+  text-decoration: none;
+}
+footer .powered {
+  font-weight: bold;
+  color: #1abc9c;
+  margin-top: 5px;
+}
